@@ -22,7 +22,7 @@ def speed_time(time_s, time_e, userinput):
     speed =  len(userinput)/ time_R
     return round(speed)
 
-
+#you can add anything of your choice in the paragraph as a test case
 test = ["You are supposed to write a paragraph and i will calculate your speed",
 "i am yash","lewis hamilton is the goat","the world is mine","how's going","go forever in therapy heeps november geography","you can eat what you think",
 "alex pareira is currently the best in the category but he may not win against the goat jon jones"]
