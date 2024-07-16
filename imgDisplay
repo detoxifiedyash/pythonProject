@@ -1,0 +1,9 @@
+import cv2
+image = cv2.imread('')#path of your image
+from google.colab.patches import cv2_imshow
+cv2_imshow(image)
+#grayscale image generation code below
+print("GRAY SCALE IMAGE")
+image1 = cv2.imread('',0)#image path
+cv2_imshow(image1)
+cv2.imwrite('',image1)#grayscaled image name
